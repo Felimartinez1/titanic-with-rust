@@ -1,0 +1,13 @@
+[package]
+name = "rust_module"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pyo3 = { version = "0.15.1", features = ["extension-module"] }
+polars = "0.26.1"
+rust_eda = { path = "../../" }
+
+
+[lib]
+crate-type = ["cdylib"]

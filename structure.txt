@@ -1,0 +1,14 @@
+rust_eda/
+├── Cargo.toml
+├── src/
+│   ├── lib.rs
+│   ├── preprocessing.rs
+│   ├── algorithm.rs
+└── python_integration/
+    ├── main.py
+    ├── data/
+    │   └── titanic2.csv
+    ├── rust_module/
+    │   ├── Cargo.toml
+    │   └── src/
+    │       ├── lib.rs
